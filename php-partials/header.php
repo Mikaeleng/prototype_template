@@ -8,20 +8,20 @@
 
 function get_header(){
     ?>
-
-<!--[if lte IE 8]>
-<link rel="stylesheet" href="css/pure/grids-responsive-old-ie-min.css">
-<![endif]-->
-<!--[if gt IE 8]><!-->
-<link rel="stylesheet" href="css/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="css/pure/pure-min.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/pure/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/pure/grids-responsive-min.css">
     <link rel="stylesheet" href="css/custom_12_grid.css">
     <link rel="stylesheet" href="fonts/linear-icons/linear-icons.css">
     <link rel="stylesheet" href="fonts/feather/feather.css">
     <link rel="stylesheet" href="open_sans/stylesheet.css">
     <link rel="stylesheet" href="css/framework.css">
-<!--<![endif]-->
+    <!--<![endif]-->
 
-<?php
+    <?php
 }
 
 function get_custom_javascripts(){
