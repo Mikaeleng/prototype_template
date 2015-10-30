@@ -1,0 +1,23 @@
+@import "_mixin";
+@import "../css/pure/grids-responsive-min.css";
+@import "../css/pure/grids-responsive-old-ie-min.css";
+
+.pure-g > div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  /* Set your content font stack here: */
+  font-family:"open_sanslight", "open_sansregular", "open_sansbold", serif;
+}
+
+
+
+body {
+  .randomColor();
+  background-color: @color;
+  color:@kalk;
+}

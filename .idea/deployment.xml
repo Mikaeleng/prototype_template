@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="engbo">
+    <serverData>
+      <paths name="engbo">
+        <serverdata>
+          <mappings>
+            <mapping deploy="prototypes/gymbuddy/" local="$PROJECT_DIR$" web="/prototypes/gymbuddy/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mikaeleng.se">
+        <serverdata>
+          <mappings>
+            <mapping deploy="prototypes/gymbuddy/" local="$PROJECT_DIR$" web="/prototypes/gymbuddy/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
